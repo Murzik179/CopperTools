@@ -1,0 +1,11 @@
+{
+	"format_version": "1.17.41",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "ct:copper_nugget_furnace_7"
+		},
+		"tags": ["furnace", "blast_furnace"],
+		"input": "ct:copper_chestplate",
+		"output": "ct:copper_nugget"
+	}
+}
