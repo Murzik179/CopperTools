@@ -1,0 +1,11 @@
+pack.description=Addon add tools and armor made of copper
+item.ct:copper_sword=Copper sword
+item.ct:copper_axe=Copper axe
+item.ct:copper_pickaxe=Copper pickaxe
+item.ct:copper_hoe=Copper hoe
+item.ct:copper_shovel=Copper shovel
+item.ct:copper_helmet=Copper helmet
+item.ct:copper_chestplate=Copper chestplate
+item.ct:copper_leggings=Copper leggings
+item.ct:copper_boots=Copper boots
+item.ct:copper_nugget=Copper nugget

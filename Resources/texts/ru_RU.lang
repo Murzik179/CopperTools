@@ -1,0 +1,11 @@
+pack.description=Аддон добавляет инструменты и броню из меди
+item.ct:copper_sword=Медный меч
+item.ct:copper_axe=Медный топор
+item.ct:copper_pickaxe=Медная кирка
+item.ct:copper_hoe=Медная мотыга
+item.ct:copper_shovel=Медная лопата
+item.ct:copper_helmet=Медный шлем
+item.ct:copper_chestplate=Медный нагрудник
+item.ct:copper_leggings=Медные поножи
+item.ct:copper_boots=Медные ботинки
+item.ct:copper_nugget=Медный самородок
