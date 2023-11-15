@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Copper Tools | Behaviour",
+    "description": "pack.description",
+    "uuid": "79583ba0-99a7-4fae-acf9-772984d07463",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 18, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "2c71ba83-e36a-4064-ac41-db2990a30625",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "75871cdb-6d74-485a-853f-7a5a0572b4ef",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["Murzik179"],
+    "license": "GPL-3.0",
+    "url": "https://github.com/Murzik179/CopperTools"
+  }
+}
