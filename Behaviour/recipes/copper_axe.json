@@ -1,0 +1,21 @@
+{
+  "format_version": "1.17.41",
+  
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ct:copper_axe"
+    },
+    "tags": ["crafting_table"],
+    
+    "pattern": [
+      "XX",
+      "XY",
+      " Y"
+    ],
+    "key": {
+      "X": "minecraft:copper_ingot",
+      "Y": "minecraft:stick"
+    },
+    "result": "ct:copper_axe"
+  }
+}
