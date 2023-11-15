@@ -1,0 +1,36 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "ct:copper_axe": {
+      "textures": "textures/items/copper_axe"
+    },
+    "ct:copper_hoe": {
+      "textures": "textures/items/copper_hoe"
+    },
+    "ct:copper_pickaxe": {
+      "textures": "textures/items/copper_pickaxe"
+    },
+    "ct:copper_shovel": {
+      "textures": "textures/items/copper_shovel"
+    },
+    "ct:copper_sword": {
+      "textures": "textures/items/copper_sword"
+    },
+    "ct:copper_helmet": {
+      "textures": "textures/items/copper_helmet"
+    },
+    "ct:copper_chestplate": {
+      "textures": "textures/items/copper_chestplate"
+    },
+    "ct:copper_leggings": {
+      "textures": "textures/items/copper_leggings"
+    },
+    "ct:copper_boots": {
+      "textures": "textures/items/copper_boots"
+    },
+    "ct:copper_nugget": {
+      "textures": "textures/items/copper_nugget"
+    }
+  }
+}
