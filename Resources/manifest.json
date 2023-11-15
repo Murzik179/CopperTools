@@ -1,0 +1,22 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Copper Tools | Resources",
+    "description": "pack.description",
+    "uuid": "75871cdb-6d74-485a-853f-7a5a0572b4ef",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 18, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "22340a98-8bc5-42f6-ac32-4afc02d6cca3",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["Murzik179"],
+    "license": "GPL-3.0",
+    "url": "https://github.com/Murzik179/CopperTools"
+  }
+}
