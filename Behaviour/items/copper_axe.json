@@ -1,0 +1,600 @@
+{
+  "format_version": "1.18.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ct:copper_axe",
+      "category": "equipment"
+    },
+    "components": {
+      "tag:minecraft:is_axe": {},
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.axe"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 225
+      },
+      "minecraft:damage": 5,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "sword"
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "speed": 3,
+            "block": {
+              "tags": "query.any_tag('wood', 'pumpkin', 'text_sign')"
+            },
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:crimson_trapdoor",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:warped_trapdoor",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:mangrove_door",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:cherry_door",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:bamboo_door",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:crimson_door",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:warped_door",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:cartography_table",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:chest",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:trapped_chest",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:crafting_table",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:furnace",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:lectern",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:loom",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:bamboo_mosaic",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:campfire",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:bamboo_block",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:soul_campfire",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:stripped_bamboo_block",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:crimson_stem",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:warped_stem",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:stripped_crimson_stem",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:stripped_warped_stem",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:crimson_hyphae",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:warped_hyphae",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:stripped_crimson_hyphae",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:stripped_warped_hyphae",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:jukebox",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:noteblock",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:mangrove_fence",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:cherry_fence",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:bamboo_fence",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:crimson_fence",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:warped_fence",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:crimson_fence_gate",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:warped_fence_gate",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:bookshelf",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:chiseled_bookshelf",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:stripped_bamboo_block",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:melon_block",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:mangrove_roots",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:bee_nest",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:beehive",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:composter",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:bamboo",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:bamboo_sapling",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:bed",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:cocoa",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:daylight_detector",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:daylight_detector_inverted",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:brown_mushroom_block",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:red_mushroom_block",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:vine",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:mangrove_double_slab",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:mangrove_slab",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:cherry_double_slab",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:cherry_slab",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:bamboo_double_slab",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:bamboo_slab",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:bamboo_mosaic_double_slab",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:bamboo_mosaic_slab",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:crimson_double_slab",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:crimson_slab",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:warped_double_slab",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:warped_slab",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:mangrove_stairs",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:cherry_stairs",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:bamboo_stairs",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:bamboo_mosaic_stairs",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:crimson_stairs",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:warped_stairs",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:mangrove_planks",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:cherry_planks",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:bamboo_planks",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:crimson_planks",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:warped_planks",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:standing_banner",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:wall_banner",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          }
+        ],
+        "on_dig": {
+          "event": "durability_update"
+        }
+      },
+      "minecraft:icon": {
+        "texture": "ct:copper_axe"
+      }
+    },
+    "events": {
+      "durability_update": {
+        "damage": {
+          "type": "durability",
+          "amount": 1,
+          "target": "self"
+        }
+      }
+    }
+  }
+}

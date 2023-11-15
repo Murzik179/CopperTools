@@ -1,0 +1,187 @@
+{
+  "format_version": "1.18.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ct:copper_hoe",
+      "category": "equipment"
+    },
+    "components": {
+      "tag:minecraft:is_hoe": {},
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.hoe"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 200
+      },
+      "minecraft:damage": 1,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "hoe"
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "speed": 3,
+            "block": {
+              "tags": "query.any_tag('pumpkin', 'minecraft:crop', 'fertilize_area')"
+            },
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:sculk_catalyst",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:sculk_shrieker",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:sculk_sensor",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:calibrated_sculk_sensor",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:sculk",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:sculk_vein",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:moss_block",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:nether_wart_block",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:warped_wart_block",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:shroomlight",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:hay_block",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:dried_kelp_block",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:sponge",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:leaves",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:leaves2",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:mangrove_leaves",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:cherry_leaves",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:azalea_leaves",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          },
+          {
+            "speed": 3,
+            "block": "minecraft:azalea_leaves_flowered",
+            "on_dig": {
+              "event": "durability_update"
+            }
+          }
+        ],
+        "on_dig": {
+          "event": "durability_update"
+        }
+      },
+      "minecraft:icon": {
+        "texture": "ct:copper_hoe"
+      }
+    },
+    "events": {
+      "durability_update": {
+        "damage": {
+          "type": "durability",
+          "amount": 1,
+          "target": "self"
+        }
+      }
+    }
+  }
+}
